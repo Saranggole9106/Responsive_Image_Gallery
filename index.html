@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Enhanced Image Gallery</h1>
+            <nav class="gallery-nav">
+                <button class="nav-btn active" data-category="all">All</button>
+                <button class="nav-btn" data-category="nature">Nature</button>
+                <button class="nav-btn" data-category="architecture">Architecture</button>
+                <button class="nav-btn" data-category="travel">Travel</button>
+            </nav>
+        </header>
+
+        <div class="gallery">
+            <!-- Nature Section -->
+            <div class="gallery-item" data-category="nature">
+                <img src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?cs=srgb&dl=pexels-souvenirpixels-417074.jpg&fm=jpg" alt="Nature Image 1">
+                <div class="overlay">
+                    <h3>Beautiful Nature</h3>
+                    <p>Captured in the wild</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="https://media.istockphoto.com/id/182367596/photo/sunset-over-himayas.jpg?s=612x612&w=0&k=20&c=rOsNuAv0BLi3AWwKQ_Hz_J9kN7U__ChFo9lGveq7Mh4=" alt="Nature Image 2">
+                <div class="overlay">
+                    <h3>Mountain View</h3>
+                    <p>Majestic peaks</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="https://burst.shopifycdn.com/photos/forest-path-at-night.jpg?exif=0&iptc=0" alt="Nature Image 3">
+                <div class="overlay">
+                    <h3>Forest Path</h3>
+                    <p>Peaceful journey</p>
+                </div>
+            </div>
+
+            <!-- Architecture Section -->
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://selo.global/wp-content/uploads/2018/03/selo-blog-insert-Heydar-Aliyev-Cultural-Center-Baku.jpg" alt="Architecture Image 1">
+                <div class="overlay">
+                    <h3>Modern Design</h3>
+                    <p>Contemporary architecture</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://images.stockcake.com/public/8/1/1/8110cfb5-f21a-4308-ac78-2c132a4108ce_large/cityscape-at-sunset-stockcake.jpg" alt="Architecture Image 2">
+                <div class="overlay">
+                    <h3>Urban Landscape</h3>
+                    <p>City skyline</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://media.architecturaldigest.com/photos/67c6155292cd7c1bd6df17c9/16:9/w_2560%2Cc_limit/GettyImages-154894958.jpg" alt="Architecture Image 3">
+                <div class="overlay">
+                    <h3>Historic Building</h3>
+                    <p>Timeless beauty</p>
+                </div>
+            </div>
+
+            <!-- Travel Section -->
+            <div class="gallery-item" data-category="travel">
+                <img src="https://farandawayadventures.com/wp-content/uploads/2024/12/dbbcd71bthumbnail.jpeg" alt="Travel Image 1">
+                <div class="overlay">
+                    <h3>Exotic Location</h3>
+                    <p>Adventure awaits</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="travel">
+                <img src="https://as1.ftcdn.net/jpg/05/58/09/36/1000_F_558093638_qm0ngLt1nYQHZRRxMHpSdq1QW8UsyDY5.jpg" alt="Travel Image 2">
+                <div class="overlay">
+                    <h3>Beach Paradise</h3>
+                    <p>Sunset views</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="travel">
+                <img src="https://media.istockphoto.com/id/1086841152/photo/friends-riding-bicycles-in-a-city.jpg?s=612x612&w=0&k=20&c=m8bxNeY0bh8nayPC4fya5058sf_sdVsWjSJ4JDFzvmM=" alt="Travel Image 3">
+                <div class="overlay">
+                    <h3>City Exploration</h3>
+                    <p>Urban adventure</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
