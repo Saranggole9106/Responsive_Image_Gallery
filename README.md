@@ -11,6 +11,8 @@ A modern, responsive image gallery built with HTML, CSS, and JavaScript. This ga
 - **Keyboard Navigation**: Support for keyboard shortcuts (Escape to close)
 - **Mobile-Friendly**: Optimized for touch devices and mobile viewing
 
+![image](https://github.com/user-attachments/assets/de2e3559-d74e-4c33-bcfc-0e323867042a)
+
 ## 🛠️ Technologies Used
 
 - HTML5
@@ -42,7 +44,7 @@ A modern, responsive image gallery built with HTML, CSS, and JavaScript. This ga
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/responsive-image-gallery.git
+git clone https://github.com/Saranggole9106/Responsive_Image-Gallery.git
 ```
 
 2. Open `index.html` in your browser to view the gallery.
@@ -89,9 +91,6 @@ responsive-image-gallery/
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👏 Acknowledgments
 
@@ -105,4 +104,4 @@ For any questions or suggestions, please open an issue in the repository.
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Sarang Gole]
